@@ -136,6 +136,16 @@ python -c "from config import *; print('OK')"
 - Проверьте баланс API ключа
 - Убедитесь, что модель доступна
 
+## 👨‍💻 Автор
+
+**Semandr | AI Developer**
+
+Начинающий ИИ-разработчик. Строю чат-ботов, API-обёртки и RAG-системы. Открыт к заказам.
+
+[![GitHub](https://img.shields.io/badge/GitHub-semandr72__eng-181717?style=flat&logo=github)](https://github.com/semandr72-eng)
+
+> _От MVP до продакшена — от промпт-инжиниринга до No-code и API-интеграций._
+
 ## 📝 License
 
 [MIT License](LICENSE)
