@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smm-assistant-bot"
+version = "1.0.0"
+description = "Асинхронный Telegram-бот для помощи контент-менеджерам в создании контента"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Content Managers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "aiogram>=3.4.1",
+    "beautifulsoup4>=4.12.3",
+    "requests>=2.31.0",
+    "gspread>=6.1.0",
+    "google-auth>=2.28.0",
+    "google-auth-oauthlib>=1.2.0",
+    "openai>=1.14.0",
+    "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",
+    "mypy>=1.8.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/USERNAME/smm-assistant-bot"
+Repository = "https://github.com/USERNAME/smm-assistant-bot"
+Issues = "https://github.com/USERNAME/smm-assistant-bot/issues"
+
+[project.scripts]
+smm-bot = "bot:main"
